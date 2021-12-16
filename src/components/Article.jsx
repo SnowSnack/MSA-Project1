@@ -1,32 +1,24 @@
-import React, { useRef, useState } from "react";
-import BtnFrom from "./BtnFrom";
-import BtnList from "./BtnList";
-import Search from "./Search";
-
+import { Link, Route, Routes } from "react-router-dom";
+import "../css/Article.css";
+import Home from "./Home";
+import Test from "./Test";
 const Article = () => {
-  const no = useRef(1);
-  const [count, setCount] = useState([]);
-
-  const handleAdd = (id) => {
-    setCount([
-      ...count,
-      {
-        id: no.current++,
-      },
-    ]);
-  };
-
-  const handleRemove = (id) => {
-    setCount(count.filter((ct) => ct.id !== id));
-  };
   return (
     <div>
-      <article style={{ color: "white" }}>
-        <h1>아티클</h1>
-        <Search />
-        <BtnFrom btnAdd={handleAdd} />
-        <BtnList count={count} onRemove={handleRemove} />
-      </article>
+      <section className="se1">
+        <article className="art1">
+          <ul>
+            <li>
+              <Link to="home">Home</Link>
+              <Link to="test">Test</Link>
+            </li>
+          </ul>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/test" element={<Test />} />
+          </Routes>
+        </article>
+      </section>
     </div>
   );
 };
