@@ -1,13 +1,14 @@
 import React from "react";
-import { FaTwitter, FaFacebookSquare } from "react-icons/fa";
+import { FaTwitter, FaFacebookSquare, FaBsInstagram } from "react-icons/fa";
 import "../css/Header.css";
 import "../css/Footer.css";
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div>
       <header>
         <h3 style={{ color: "white" }}>헤더임</h3>
       </header>
+      {children}
       <footer style={{ color: "white" }}>
         footer여기있다
         <ul>
@@ -17,11 +18,15 @@ const Layout = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://ko-kr.facebook.com/">
               <FaFacebookSquare />
             </a>
           </li>
-          <li></li>
+          <li>
+            <a href="https://www.instagram.com/?hl=ko">
+              {/* <FaBsInstagram /> */}
+            </a>
+          </li>
         </ul>
       </footer>
     </div>
