@@ -4,7 +4,13 @@
   /* 모든 태그에 여백을 없앰  화면 꽉차게함 */
 }
 .MainBg {
-  background: black;
-  width: 100vw;
+  border: 0;
+  padding: 0;
+  /* background-image: url(../img/img_front_visual.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background: white;
   height: 100vh;
+  width: 100vw;
 }
