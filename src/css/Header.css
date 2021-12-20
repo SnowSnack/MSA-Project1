@@ -1,5 +1,26 @@
 header {
+  position: sticky;
+  top: 0;
   background: black;
-  border: 2px solid brown;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
   height: 50px;
+  z-index: 10;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu a {
+  margin: 7px;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }

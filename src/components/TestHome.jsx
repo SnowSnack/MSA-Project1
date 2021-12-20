@@ -1,10 +1,14 @@
 import React from "react";
+import '../css/Home.css'
 
 const TestHome = () => {
   return (
-    <div>
-      <h1 style={{ color: "white" }}>나무위키 작성입니다 </h1>
-    </div>
+    <article >
+      {/* <div className="hi">
+        안녕하신가 
+      </div> */}
+      <div className="bg"> </div>
+    </article>
   );
 };
 

@@ -1,19 +1,20 @@
 footer {
   background: black;
   width: 100%;
-  height: 110px;
+  height: 100px;
   bottom: 0px;
   font-size: 15px;
-  position: fixed;
+
 }
 .copy {
   flex-wrap: nowrap;
   /* Copyright */
   color: white;
   font-size: 15px;
+  vertical-align: bottom;
 }
 .logo {
-  margin-top: 35px;
+  /* margin-top: 15px; */
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;

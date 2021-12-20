@@ -1,0 +1,7 @@
+.bg {
+  background-image: url("../img/img_front_visual.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
