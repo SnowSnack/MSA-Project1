@@ -1,0 +1,103 @@
+#Athens{
+    font-size: 16px;
+    font-family: Open Sans, arial, Apple SD Gothic Neo,
+                Noto Sans CJK, 본고딕;
+    background-color: #373a3c;
+    color: white;
+    display: table;
+    clear: both;
+    content: "";
+    overflow: auto;
+    
+}
+
+#Athens a{
+    color : #ec9f19;
+}
+
+.wiki-heading{
+    border-bottom-color: #383b40;
+    margin: 1.2em 0 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h2.wiki-heading{
+    font-size: 1.8em;
+}
+
+.wiki-table-video{
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid #4a8de1;
+}
+
+.wiki-img{
+    margin: 10px 10px 10px 10px;
+    border:2px solid #4a8de1;
+    
+}
+
+.wiki-table{
+    background-color: #2d2f34;
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 10px 100px 20px 10px;
+
+}
+
+#Athens table{
+    display: table;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    text-align: center;
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.test{
+    
+    
+}
+.main-content{
+    box-sizing: content-box;
+    margin: 10px;
+    border: 0px;
+    
+}
+
+.wiki-table-wrap{
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+.wiki-table{
+    margin: 10px auto;
+    width:100%;
+}
+
+.left-aside{
+    box-sizing: content-box;
+    width: 15%;
+    background-color: black;
+    
+    
+}
+.right-aside{
+    box-sizing: content-box;
+    width: 30%;
+    background-color: black;
+    
+}
