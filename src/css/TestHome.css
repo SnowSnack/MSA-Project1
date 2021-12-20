@@ -3,5 +3,14 @@
   background-color: gray;
   opacity: 0.7;
   width: 100vw;
-  /* overflow: scroll;s */
+}
+.srch {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.ip {
+  display: flex;
+  justify-content: center;
 }
