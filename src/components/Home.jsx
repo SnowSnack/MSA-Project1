@@ -1,21 +1,21 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import "../css/Main.css";
+import "../css/Home.css";
 import Layout from "./Layout";
-import Test from "./Test";
-import TestHome from "./TestHome";
+import MainPage from "./MainPage";
 import ContentList from "./ContentList";
 import Introduce from "./Introduce";
+import Search from "./Search";
 
 const Home = () => {
   const aStr = "<Content></Content><Introduce></Introduce>";
   return (
 
-    <div className="MainBg">
+    <div className="HomeBg">
       <Layout children = {aStr}>
         <Routes>
-          <Route path="/" element={<TestHome />} />
-          <Route path="test" element={<Test />} />
+          <Route path="/" element={<MainPage />} />
+          <Route path="Search" element={<Search />} />
           <Route path="content" element=
           {
             <>

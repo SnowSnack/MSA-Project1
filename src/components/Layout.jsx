@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
           <li className="menu">
               <Link to="/"><FaLeaf className="leaf"/>Home</Link>
               <Link to= "./content">ContentList</Link>
-              <Link to="./test"><FaCloud/>Search</Link>
+              <Link to="./"><FaCloud/>Search</Link>
           </li>
         </ul>
         <Outlet />
@@ -67,11 +67,12 @@ const Layout = ({ children }) => {
           </li>
         </ul>
         <div className="copy">
-          <p className="">Copyright &copy; SeSAc Namu.Wiki </p>
-          <p style={{ fontSize: "12px" }}>
+          <span>Copyright &copy; SeSAc Namu.Wiki </span>
+          <br />
+          <span style={{ fontSize: "12px" }}>
             This site is protected by reCAPTCHA and the Google Privacy Policy
             and Terms of Service apply.
-          </p>
+          </span>
         </div>
       </footer>
     </div>

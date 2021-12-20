@@ -1,4 +1,4 @@
-.hi {
+.ShArti {
   min-height: calc(100vh - 150px);
   width: 100vw;
 }
@@ -8,11 +8,11 @@
   justify-content: center;
 }
 
-.ip {
+.divinput {
   display: flex;
   justify-content: center;
 }
-#input {
+#Shinput {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 300px;
@@ -23,6 +23,6 @@
   border-right: none;
   border-bottom: 3px solid black;
 }
-#input:focus {
+#Shinput:focus {
   outline: none;
 }

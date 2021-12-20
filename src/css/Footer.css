@@ -4,14 +4,14 @@ footer {
   height: 100px;
   bottom: 0px;
   font-size: 15px;
-
 }
 .copy {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  align-content: flex-end;
   /* Copyright */
   color: white;
   font-size: 15px;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 .logo {
   /* margin-top: 15px; */

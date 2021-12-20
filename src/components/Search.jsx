@@ -1,8 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { FaSearch } from "react-icons/fa";
-import '../css/TestHome.css'
-const Test = () => {
+import '../css/Search.css'
+const Search = () => {
   const [data, setData] = useState([]);
   const [msg, setMsg] = useState('css');
   const [loading, setLoading] = useState(true);
@@ -27,9 +26,9 @@ const Test = () => {
   },[msg])
 
   return (
-    <article className="hi">
-        <div className="ip">
-          <input id="input" type="text" placeholder="search" onChange={e => setMsg(e.target.value)} />
+    <article className="ShArti">
+        <div className="divinput">
+          <input id="Shinput" type="text" placeholder="Search" onChange={e => setMsg(e.target.value)} />
         </div>
       <div className="srch">
         <ul>
@@ -46,4 +45,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Search;

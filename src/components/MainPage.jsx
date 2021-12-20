@@ -1,10 +1,10 @@
 import React from "react";
-import '../css/Home.css'
+import '../css/MainPage.css'
 
-const TestHome = () => {
+const MainPage = () => {
   return (
       <div className="bg"></div>
   );
 };
 
-export default TestHome;
+export default MainPage;
