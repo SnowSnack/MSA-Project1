@@ -1,6 +1,6 @@
-import { Input } from "antd";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { FaSearch } from "react-icons/fa";
 import '../css/TestHome.css'
 const Test = () => {
   const [data, setData] = useState([]);
@@ -29,8 +29,7 @@ const Test = () => {
   return (
     <article className="hi">
         <div className="ip">
-          <Input placeholder="영어로검색하시오" onChange={e => setMsg(e.target.value)}/>
-          {/* <input type="text" placeholder="단어 검색" onChange={e => setMsg(e.target.value)}/> */}
+          <input id="input" type="text" placeholder="search" onChange={e => setMsg(e.target.value)} />
         </div>
       <div className="srch">
         <ul>

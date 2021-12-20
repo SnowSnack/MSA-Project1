@@ -1,7 +1,5 @@
 .hi {
   min-height: calc(100vh - 150px);
-  background-color: gray;
-  opacity: 0.7;
   width: 100vw;
 }
 .srch {
@@ -13,4 +11,18 @@
 .ip {
   display: flex;
   justify-content: center;
+}
+#input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+}
+#input:focus {
+  outline: none;
 }

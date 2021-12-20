@@ -1,0 +1,22 @@
+.content-list
+{
+    border : 1px solid gray;
+    float : left;
+}
+
+.content-list h3
+{
+    font-weight: normal;
+}
+
+.content-list ul
+{
+    list-style: none;
+}
+
+ul {
+    list-style-position: inside;
+}
+li {
+    margin: 0px 40px;
+}
