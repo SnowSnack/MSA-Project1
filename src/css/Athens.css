@@ -66,10 +66,6 @@ tbody{
     border-color: inherit;
 }
 
-.test{
-    
-    
-}
 .main-content{
     box-sizing: content-box;
     margin: 10px;
@@ -101,3 +97,66 @@ tbody{
     background-color: black;
     
 }
+
+.medal{
+    text-align: center;
+}
+
+.wiki-table-wrap-special{
+    width: 600px;
+    background-color: #4a8de1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wiki-table-wrap-special .head-content{
+    color: #ffffff;
+    
+    text-align: center;
+}
+
+.wiki-paragraph{
+    margin-bottom: 0;
+}
+
+.main-content-option{
+    background-color: #191919;
+}
+.main-conent-oprion > td{
+    width: 12%;
+    text-align: center;
+}
+
+.main-content-medal-gold{
+    background-color: #ffa500;
+    width: 12%;
+    text-align: center;
+}
+
+.main-content-medal-silver{
+    width: 12%;
+    background-color: #c0c0c0;
+    text-align: center;
+}
+
+.main-content-medal-bronze{
+    background-color: #cd7f32;
+    width: 12%;
+    text-align: center;
+}
+
+.main-content img{
+    vertical-align: sub;
+    display: inline-flex;
+    width: 24px;
+    padding: 1px;
+    background-color: rgba(45,47,52,0,25);
+    
+}
+
+.main-content td:nth-child(2){
+    text-align: left;
+}
+
+
+
