@@ -18,11 +18,14 @@ const Layout = ({ children }) => {
           <li className="menu">
               <Link to="/"><FaLeaf className="leaf"/>Home</Link>
               <Link to="./test"><FaCloud/>Test</Link>
+              <Link to= "./content">ContentList</Link>
           </li>
         </ul>
         <Outlet />
       </header>
-      {children}
+      <article className = "clearfix">
+          {children}
+      </article>
       <footer>
         <ul className="logo">
           <li>
