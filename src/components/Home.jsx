@@ -3,9 +3,8 @@ import { Route, Routes } from "react-router-dom";
 import "../css/Home.css";
 import Layout from "./Layout";
 import MainPage from "./MainPage";
-import Search from "./Search";
-import Athens from "./Athens"
-import TopArticle from "./TopArticle"
+import Athens from "./Templates/Athene2004/A2004MainText"
+import A2004TopArticle from "./Templates/Athene2004/A2004TopArticle"
 const Home = () => {
   
   return (
@@ -14,11 +13,10 @@ const Home = () => {
       <Layout >
         <Routes>
           <Route path="/" element={<MainPage />} />
-          <Route path="Search" element={<Search />} />
           <Route path="content" element=
           {
             <>
-              <TopArticle></TopArticle>
+              <A2004TopArticle></A2004TopArticle>
               <Athens/>
             </>
           }/>

@@ -9,11 +9,14 @@
 .top-a-container
 {
     width : 100%;
+    font-family: Open Sans, arial, Apple SD Gothic Neo,
+                Noto Sans CJK, 본고딕;
 }
 
 .top-aside
 {
     width:15%;
+    background-color: black;
 }
 
 .top-article

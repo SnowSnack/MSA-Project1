@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../css/ITable2Column.css';
+import '../../../css/Templates/Athene2004/A2004ITable2Column.css';
 
-const ITable2Column = () => {
+const A2004ITable2Column = () => {
     return (
         <div>
             <table className="table-2column">
@@ -50,4 +50,4 @@ const ITable2Column = () => {
     );
 };
 
-export default ITable2Column;
+export default A2004ITable2Column;

@@ -97,7 +97,7 @@ tbody{
 }
 .right-aside{
     box-sizing: content-box;
-    width: 30%;
+    width: 15%;
     background-color: black;
     
 }
@@ -161,6 +161,3 @@ tbody{
 .main-content td:nth-child(2){
     text-align: left;
 }
-
-
-

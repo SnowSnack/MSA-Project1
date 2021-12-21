@@ -1,10 +1,10 @@
 import React from 'react';
-import ContentList from "./ContentList";
-import Introduce from "./Introduce";
+import ContentList from "./A2004ContentList";
+import Introduce from "./A2004Introduce";
 
-import "../css/TopArticle.css"
+import "../../../css/Templates/Athene2004/A2004TopArticle.css"
 
-const TopArticle = () => {
+const A2004TopArticle = () => {
     return (
         <table className = "top-a-container">
             <tr>
@@ -27,4 +27,4 @@ const TopArticle = () => {
     );
 };
 
-export default TopArticle;
+export default A2004TopArticle;

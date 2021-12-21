@@ -1,11 +1,13 @@
 import React from "react";
-import "../css/Athens.css";
-const Athens = () => {
+import "../../../css/Templates/Athene2004/A2004MainText.css";
+
+const A2004MainText = () =>
+{
   return (
     <table id="test" border="1">
       <tr colSpan="3">
         <td className="left-aside"></td>
-        <td classNmae="main">
+        <td className="main">
           <div id="Athens">
             <div>
               <h2 className="wiki-heading">
@@ -602,4 +604,4 @@ const Athens = () => {
   );
 };
 
-export default Athens;
+export default A2004MainText;
