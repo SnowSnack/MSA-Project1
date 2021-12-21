@@ -1,36 +1,39 @@
 
-import {Link} from 'react-router-dom';
 import '../css/ContentList.css';
+
 
 const ContentList = () =>
 {
     return (
         <>
             <aside className='content-list'>
-                <h3>목차</h3>
+                <h2>목차</h2>
                 <ul>
-                    <li><Link to="/">개요</Link></li>
-                    <li><Link to="/">유치</Link></li>
-                    <li><Link to="/">개막</Link></li>
-                    <li><Link to="/">매달</Link>
+                    <li><a href="#s-1">1.</a> 개요</li>
+                    <li><a href="#s-2">2.</a> 유치</li>
+                    <li><a href="#s-3">3.</a> 개막</li>
+                    <li><a href="#s-4">4.</a> 메달
                         <ul>
-                            <li><Link to="/">메달디자인</Link></li>
-                            <li><Link to="/">순위</Link></li>
+                            <li><a href="#s-4.1">4.1</a> 메달디자인</li>
+                            <li><a href="#s-4.2">4.2</a> 순위</li>
                         </ul>
                     </li>
-                    <li><Link to="/">대한민국 선수단 : 아깝네 올림픽</Link></li>
-                    <li><Link to="/">대한민국 하계올림픽 성적</Link></li>
-                    <li><Link to="/">한국측 중계진</Link>
+                    <li><a href="#s-5">5.</a> 대한민국 선수단 : 아깝네 올림픽</li>
+                    <li><a href="#s-6">6.</a> 대한민국 하계올림픽 성적</li>
+                    <li><a href="#s-7">7.</a> 한국측 중계진
                         <ul>
-                            <li><Link to="/">KBS</Link></li>
-                            <li><Link to="/">MBC</Link></li>
-                            <li><Link to="/">SBS</Link></li>
+                            <li><a href="#s-7.1">7.1</a> KBS</li>
+                            <li><a href="#s-7.2">7.2</a> MBC</li>
+                            <li><a href="#s-7.3">7.3</a> SBS</li>
                         </ul>
                     </li>
-                    <li><Link to="/">평가</Link></li>
+                    <li><a href="#s-8">8.</a> 평가</li>
+                    
                 </ul>  
-
             </aside>
+            <ul>
+                
+            </ul>
         </>
     );
 };

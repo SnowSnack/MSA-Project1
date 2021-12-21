@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../css/ITable2Column.css';
+
 const ITable2Column = () => {
     return (
         <div>
@@ -8,7 +10,7 @@ const ITable2Column = () => {
                         
                     </thead>
                       
-                    <tbody className="body"> 
+                    <tbody className="bottom-body"> 
                         <tr>
                             <th>대회기간</th>
                             <td>2004년 8월 13일~2004년 8월 29일</td>
@@ -21,10 +23,10 @@ const ITable2Column = () => {
                             <th>슬로건</th>
                             
                             <tr>
-                                <td>Καλώς ήλθατε σπίτι</td>
+                                <td className='border'>Καλώς ήλθατε σπίτι</td>
                             </tr>
                             <tr>
-                                <td>Welcome Home</td>
+                                <td className='border'>Welcome Home</td>
                             </tr>
                             <tr>
                                 <td>(집에 오신 걸 환영합니다)</td>
@@ -32,15 +34,15 @@ const ITable2Column = () => {
                         </tr>
                         <tr>
                             <th>마스코트</th>
-                            <td>steven@example.com</td>
+                            <td>페보스, 아테나</td>
                         </tr>
                         <tr>
                             <th>주제가</th>
-                            <td>sophie@example.com</td>
+                            <td>Olympic Dream</td>
                         </tr>
                         <tr>
                             <th>참가국</th>
-                            <td>ashur@example.com</td>
+                            <td>201개국</td>
                         </tr>
                     </tbody>
                 </table>

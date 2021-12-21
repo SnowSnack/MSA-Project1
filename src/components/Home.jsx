@@ -3,10 +3,9 @@ import { Route, Routes } from "react-router-dom";
 import "../css/Home.css";
 import Layout from "./Layout";
 import MainPage from "./MainPage";
-import ContentList from "./ContentList";
-import Introduce from "./Introduce";
 import Search from "./Search";
-
+import Athens from "./Athens"
+import TopArticle from "./TopArticle"
 const Home = () => {
   const aStr = "<Content></Content><Introduce></Introduce>";
   return (
@@ -19,9 +18,8 @@ const Home = () => {
           <Route path="content" element=
           {
             <>
-              <ContentList/>
-              <Introduce/>
-
+              <TopArticle></TopArticle>
+              <Athens/>
             </>
           }/>
           

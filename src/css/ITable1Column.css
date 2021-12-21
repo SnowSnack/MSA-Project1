@@ -1,0 +1,35 @@
+.table-1column thead
+{ 
+    
+    width : 400px;
+    border-bottom: 1px solid black;
+}
+
+.table-1column td
+{
+    font-size: 30px;
+    font-weight: bolder;
+    height : 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bigText
+{
+    font-size: 20px;
+}
+
+img
+{
+    width : 400px;
+}
+
+.img
+{
+    background-color: black;
+}
+
+.top-body
+{
+    line-height: 30px;
+}

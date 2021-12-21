@@ -3,6 +3,7 @@ article
     display :inline-flexbox;
     width : auto;
     height: auto;
+    background-color: rgb(58, 58, 58);
 }
 
 .clearfix {*zoom:1;}

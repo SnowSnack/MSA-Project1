@@ -22,10 +22,6 @@ const Layout = ({ children }) => {
               Home
             </Link>
             <Link to="./content">ContentList</Link>
-            <Link to="./">
-              <FaCloud />
-              Search
-            </Link>
           </li>
         </ul>
         <Outlet />
