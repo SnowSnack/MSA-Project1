@@ -1,8 +1,9 @@
 .content-list
 {
+    float : left;
+    width : 400px;
     padding : 30px 10px;
     border : 1px solid gray;
-    float : left;
     color : white;
     
 }
