@@ -3,7 +3,7 @@
     width:100%;
 }
 
-#Athens{
+#Beijing{
     font-size: 16px;
     font-family: Open Sans, arial, Apple SD Gothic Neo,
                 Noto Sans CJK, 본고딕;
@@ -15,7 +15,7 @@
     overflow: auto;
 }
 
-#Athens a{
+#Beijing a{
     color : #ec9f19;
 }
 
@@ -35,10 +35,10 @@ h2.wiki-heading{
     font-size: 1.8em;
 }
 
-.wiki-table-video{
+#Beijing .wiki-table-video{
     margin-left: auto;
     margin-right: auto;
-    border:2px solid #4a8de1;
+    border:2px solid red;
 }
 
 .wiki-img{
@@ -56,13 +56,69 @@ h2.wiki-heading{
 
 }
 
-#Athens table{
+.wiki-table-Beijing{
+    background-color: #ffffff;
+    width: 100%;
+    border: 2px solid #d71921;
+    margin-bottom: 20px;
+}
+
+.emblem-row{
+    background-color: #d71921;
+    color: #ffffff;
+    display: table-row;
+    height: 40px;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#Beijing table{
     display: table;
     text-indent: initial;
     border-spacing: 2px;
     border-color: grey;
     text-align: center;
 }
+
+#Beijing img .emblem-right{
+    background-color: white;
+    margin-bottom: 0;
+}
+#Beijing img .emblem-left{
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.noMark{
+    list-style: none;
+}
+
+.unOrderedList{
+    margin: 0.4em 0.4 em 1.5 em;
+    padding-left: 0.5rem;
+    margin: 0.4em 0;
+    list-style: inherit!important;
+    list-style-type: inherit!important;
+}
+
+.nestedList{
+    margin: 0.4em 0 0.4em 1.5em;
+    padding-left: 0.5rem;
+}
+
+.unOrderedList #last{
+    margin: 0.4em 0 0.4em 1.5em;
+    list-style: inherit!important;
+    list-style-type: inherit!important;
+    
+}
+
+.wiki-table-Beijing-medal{
+    background-color: white;
+    width: 40%;
+    border: 2px solid #d71921;
+}
+
 
 tbody{
     display: table-row-group;
@@ -108,14 +164,15 @@ tbody{
 
 .wiki-table-wrap-special{
     width: 600px;
-    background-color: #4a8de1;
+    background-color: #d71921;
     margin-left: auto;
     margin-right: auto;
+    
+    border: 2px solid #d71921;
 }
 
 .wiki-table-wrap-special .head-content{
     color: #ffffff;
-    
     text-align: center;
 }
 
@@ -156,6 +213,10 @@ tbody{
     padding: 1px;
     background-color: rgba(45,47,52,0,25);
     
+}
+
+.main-content{
+    background-color: #2d2f34;
 }
 
 .main-content td:nth-child(2){

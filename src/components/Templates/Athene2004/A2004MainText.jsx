@@ -300,7 +300,7 @@ const A2004MainText = () =>
                         <td className="medal">
                           <img
                             className="wiki-img"
-                            src="img/medal1.jpeg"
+                            src="/img/medal1.jpeg"
                             alt="없음"
                             width="500px"
                             height="500px"
@@ -308,7 +308,7 @@ const A2004MainText = () =>
                           <br />
                           <img
                             className="wiki-img"
-                            src="img/medal2.jpeg"
+                            src="/img/medal2.jpeg"
                             alt="없음"
                             width="500px"
                             height="500px"
@@ -375,7 +375,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>1</td>
                       <td>
-                        <img src="img/America.svg" alt="no" />
+                        <img src="/img/America.svg" alt="no" />
                         미국
                       </td>
                       <td>36</td>
@@ -386,7 +386,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>2</td>
                       <td>
-                        <img src="img/China.svg" alt="no" />
+                        <img src="/img/China.svg" alt="no" />
                         중국
                       </td>
                       <td>32</td>
@@ -397,7 +397,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>3</td>
                       <td>
-                        <img src="img/Russia.svg" alt="no" />
+                        <img src="/img/Russia.svg" alt="no" />
                         러시아
                       </td>
                       <td>28</td>
@@ -408,7 +408,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>4</td>
                       <td>
-                        <img src="img/Aust.svg" alt="no" />
+                        <img src="/img/Aust.svg" alt="no" />
                         호주
                       </td>
                       <td>17</td>
@@ -419,7 +419,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>5</td>
                       <td>
-                        <img src="img/Jp.svg" alt="no" />
+                        <img src="/img/Jp.svg" alt="no" />
                         일본
                       </td>
                       <td>16</td>
@@ -430,7 +430,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>6</td>
                       <td>
-                        <img src="img/Ger.svg" alt="no" />
+                        <img src="/img/Ger.svg" alt="no" />
                         독일
                       </td>
                       <td>13</td>
@@ -441,7 +441,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>7</td>
                       <td>
-                        <img src="img/Fr.svg" alt="no" />
+                        <img src="/img/Fr.svg" alt="no" />
                         프랑스
                       </td>
                       <td>11</td>
@@ -452,7 +452,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>8</td>
                       <td>
-                        <img src="img/Itl.svg" alt="no" />
+                        <img src="/img/Itl.svg" alt="no" />
                         이탈리아
                       </td>
                       <td>10</td>
@@ -463,7 +463,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>9</td>
                       <td>
-                        <img src="img/Kor.svg" alt="no" />
+                        <img src="/img/Kor.svg" alt="no" />
                         대한민국
                       </td>
                       <td>9</td>
@@ -474,7 +474,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>10</td>
                       <td>
-                        <img src="img/Eng.svg" alt="no" />
+                        <img src="/img/Eng.svg" alt="no" />
                         잉글랜드
                       </td>
                       <td>9</td>
@@ -485,7 +485,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>11</td>
                       <td>
-                        <img src="img/Cuba.svg" alt="no" />
+                        <img src="/img/Cuba.svg" alt="no" />
                         쿠바
                       </td>
                       <td>9</td>
@@ -496,7 +496,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>12</td>
                       <td>
-                        <img src="img/Hung.svg" alt="no" />
+                        <img src="/img/Hung.svg" alt="no" />
                         헝가리
                       </td>
                       <td>8</td>
@@ -507,7 +507,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>13</td>
                       <td>
-                        <img src="img/Ukr.svg" alt="no" />
+                        <img src="/img/Ukr.svg" alt="no" />
                         우크라이나
                       </td>
                       <td>8</td>
@@ -518,7 +518,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>14</td>
                       <td>
-                        <img src="img/Luma.svg" alt="no" />
+                        <img src="/img/Luma.svg" alt="no" />
                         루마니아
                       </td>
                       <td>8</td>
@@ -529,7 +529,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>15</td>
                       <td>
-                        <img src="img/Gre.svg" alt="no" />
+                        <img src="/img/Gre.svg" alt="no" />
                         그리스
                       </td>
                       <td>6</td>
@@ -540,7 +540,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>16</td>
                       <td>
-                        <img src="img/Bra.svg" alt="no" />
+                        <img src="/img/Bra.svg" alt="no" />
                         브라질
                       </td>
                       <td>5</td>
@@ -551,7 +551,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>17</td>
                       <td>
-                        <img src="img/Nor.svg" alt="NoNno" />
+                        <img src="/img/Nor.svg" alt="NoNno" />
                         노르웨이
                       </td>
                       <td>5</td>
@@ -562,7 +562,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>18</td>
                       <td>
-                        <img src="img/Ned.svg" alt="no" />
+                        <img src="/img/Ned.svg" alt="no" />
                         네덜란드
                       </td>
                       <td>4</td>
@@ -573,7 +573,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>19</td>
                       <td>
-                        <img src="img/Swe.svg" alt="no" />
+                        <img src="/img/Swe.svg" alt="no" />
                         스웨덴
                       </td>
                       <td>4</td>
@@ -584,7 +584,7 @@ const A2004MainText = () =>
                     <tr className="main-content">
                       <td>20</td>
                       <td>
-                        <img src="img/Spain.svg" alt="no" />
+                        <img src="/img/Spain.svg" alt="no" />
                         스페인
                       </td>
                       <td>3</td>
