@@ -1,0 +1,17 @@
+.table-1column thead
+{ 
+    text-align: center;
+    vertical-align: middle;
+    width : 400px;
+    border-bottom: 1px solid black;
+}
+
+img
+{
+    width : 400px;
+}
+
+.img
+{
+    background-color: black;
+}

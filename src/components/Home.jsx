@@ -6,6 +6,7 @@ import MainPage from "./MainPage";
 import ContentList from "./ContentList";
 import Introduce from "./Introduce";
 import Search from "./Search";
+import Athens from "./Athens"
 
 const Home = () => {
   const aStr = "<Content></Content><Introduce></Introduce>";
@@ -21,7 +22,7 @@ const Home = () => {
             <>
               <ContentList/>
               <Introduce/>
-
+              <Athens/>
             </>
           }/>
           

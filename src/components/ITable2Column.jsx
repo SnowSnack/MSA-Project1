@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../css/ITable2Column.css';
+
 const ITable2Column = () => {
     return (
         <div>
@@ -8,7 +10,7 @@ const ITable2Column = () => {
                         
                     </thead>
                       
-                    <tbody className="body"> 
+                    <tbody className="bottom-body"> 
                         <tr>
                             <th>대회기간</th>
                             <td>2004년 8월 13일~2004년 8월 29일</td>

@@ -1,0 +1,20 @@
+.bottombody tr
+{
+    background-color: black;
+}
+tbody tr tr td
+{
+    border : none;
+    width : 400px;
+}
+th
+{
+    background-color: #4a8de1;
+}
+
+td
+{
+    background-color: black;
+    text-align: center;
+    border : 1px solid gray;
+}
