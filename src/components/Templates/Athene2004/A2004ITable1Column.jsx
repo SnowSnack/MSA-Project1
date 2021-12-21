@@ -9,7 +9,7 @@ const A2004ITable1Column = () => {
         <div>
             <table className="table-1column">
                         <thead>
-                            <td>아테네 올림픽</td>
+                            <td>2004 아테네 올림픽</td>
                         </thead>
                     
                     <tbody className="top-body">

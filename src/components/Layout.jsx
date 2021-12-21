@@ -17,7 +17,8 @@ const Layout = ({ children }) => {
         <ul>
           <li className="menu">
               <Link to="/"><FaLeaf className="leaf"/>Home</Link>
-              <Link to= "./content">ContentList</Link>
+              <Link to= "./content/Athene2004">Athene2004</Link>
+              <Link to= "./content/Beijing2008">Beijing2008</Link>
           </li>
         </ul>
         <Outlet />
