@@ -1,12 +1,18 @@
 .container
 {
     float : right;
-    color : white;
-    border : 2px solid #4a8de1;
-    background-color:#4a8de1;
+    
     width : 500px;
     text-align: center;
 }
+
+#b2008container
+{
+    color : white;
+    border : 2px solid red;
+    background-color:red;
+}
+
 
 table
 {

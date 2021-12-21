@@ -1,33 +1,33 @@
-.bottombody tr
+.b2008-bottom-body tr
 {
     background-color: black;
-    
+    color : gray;
 }
-tbody tr tr td
+.b2008-bottom-body tr tr td
 {
     height : 40px;
-    background-color: rgb(51, 51, 51);
+    background-color: white;
     text-align: center;
     width : 400px;
 }
 
 .border
 {
-    
     font-weight: bolder;    
 }
-th
+.b2008-bottom-body th
 {
-    background-color: #4a8de1;
+    color : white;
+    background-color: red;
     width:30%;
     border-bottom: 1px solid black;
 }
 
-.bottom-body > tr > td
+.b2008-bottom-body > tr > td
 {
     height : 40px;
-    background-color: rgb(51, 51, 51);
+    background-color: white;
     text-align: center;
     font-size: 18px;
-    border : 1px solid gray;
+    border : 1px solid black;
 }

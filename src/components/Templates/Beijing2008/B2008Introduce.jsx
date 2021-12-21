@@ -5,7 +5,7 @@ import B2008ITable2Column from './B2008ITable2Column';
 const B2008Introduce = () => {
     return (
 <>    
-    <div className="container">
+    <div className="container" id = "b2008container">
         <div className="panel panel-default">
             <div className="panel-heading">
                 <span></span>

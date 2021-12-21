@@ -10,7 +10,7 @@ const A2004ITable2Column = () => {
                         
                     </thead>
                       
-                    <tbody className="bottom-body"> 
+                    <tbody className="a2004-bottom-body"> 
                         <tr>
                             <th>대회기간</th>
                             <td>2004년 8월 13일~2004년 8월 29일</td>

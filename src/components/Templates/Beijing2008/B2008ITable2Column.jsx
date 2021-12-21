@@ -10,7 +10,7 @@ const B2008ITable2Column = () => {
                         
                     </thead>
                       
-                    <tbody className="bottom-body"> 
+                    <tbody className="b2008-bottom-body"> 
                         <tr>
                             <th>대회기간</th>
                             <td>2004년 8월 13일~2004년 8월 29일</td>
@@ -34,15 +34,15 @@ const B2008ITable2Column = () => {
                         </tr>
                         <tr>
                             <th>마스코트</th>
-                            <td>페보스, 아테나</td>
+                            <td>베이베이, 징징, 환환, 잉잉, 니니</td>
                         </tr>
                         <tr>
                             <th>주제가</th>
-                            <td>Olympic Dream</td>
+                            <td>Forever Friends</td>
                         </tr>
                         <tr>
                             <th>참가국</th>
-                            <td>201개국</td>
+                            <td>204개국</td>
                         </tr>
                     </tbody>
                 </table>
