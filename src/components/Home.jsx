@@ -7,11 +7,11 @@ import Search from "./Search";
 import Athens from "./Athens"
 import TopArticle from "./TopArticle"
 const Home = () => {
-  const aStr = "<Content></Content><Introduce></Introduce>";
+  
   return (
 
     <div className="HomeBg">
-      <Layout children = {aStr}>
+      <Layout >
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="Search" element={<Search />} />
