@@ -5,7 +5,9 @@
 }
 tbody tr tr td
 {
-    border : none;
+    height : 40px;
+    background-color: rgb(51, 51, 51);
+    text-align: center;
     width : 400px;
 }
 
@@ -21,7 +23,7 @@ th
     border-bottom: 1px solid black;
 }
 
-.bottombody td
+.bottom-body > tr > td
 {
     height : 40px;
     background-color: rgb(51, 51, 51);
