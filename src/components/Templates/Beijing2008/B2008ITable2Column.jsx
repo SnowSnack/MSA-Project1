@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../../../css/Templates/Athene2004/A2004ITable2Column.css';
+import '../../../css/Templates/Beijing2008/B2008ITable2Column.css';
 
-const A2004ITable2Column = () => {
+const B2008ITable2Column = () => {
     return (
         <div>
             <table className="table-2column">
@@ -10,7 +10,7 @@ const A2004ITable2Column = () => {
                         
                     </thead>
                       
-                    <tbody className="a2004-bottom-body"> 
+                    <tbody className="b2008-bottom-body"> 
                         <tr>
                             <th>대회기간</th>
                             <td>2004년 8월 13일~2004년 8월 29일</td>
@@ -23,26 +23,26 @@ const A2004ITable2Column = () => {
                             <th>슬로건</th>
                             
                             <tr>
-                                <td className='border'>Καλώς ήλθατε σπίτι</td>
+                                <td className='border'>同一个世界 同一个梦想</td>
                             </tr>
                             <tr>
-                                <td className='border'>Welcome Home</td>
+                                <td className='border'>One World, One Dream</td>
                             </tr>
                             <tr>
-                                <td>(집에 오신 걸 환영합니다)</td>
+                                <td>(하나의 세계, 하나의 꿈)</td>
                             </tr>
                         </tr>
                         <tr>
                             <th>마스코트</th>
-                            <td>페보스, 아테나</td>
+                            <td>베이베이, 징징, 환환, 잉잉, 니니</td>
                         </tr>
                         <tr>
                             <th>주제가</th>
-                            <td>Olympic Dream</td>
+                            <td>Forever Friends</td>
                         </tr>
                         <tr>
                             <th>참가국</th>
-                            <td>201개국</td>
+                            <td>204개국</td>
                         </tr>
                     </tbody>
                 </table>
@@ -50,4 +50,4 @@ const A2004ITable2Column = () => {
     );
 };
 
-export default A2004ITable2Column;
+export default B2008ITable2Column;
