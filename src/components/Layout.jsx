@@ -4,28 +4,33 @@ import {
   FaFacebookSquare,
   FaInstagram,
   FaLeaf,
-  FaCloud
+  FaCloud,
 } from "react-icons/fa";
 import "../css/Header.css";
 import "../css/Footer.css";
 import { Link, Outlet } from "react-router-dom";
 import "../css/Article.css";
+
 const Layout = ({ children }) => {
   return (
     <div>
       <header>
         <ul>
           <li className="menu">
-              <Link to="/"><FaLeaf className="leaf"/>Home</Link>
-              <Link to= "./content">ContentList</Link>
-              <Link to="./"><FaCloud/>Search</Link>
+            <Link to="/">
+              <FaLeaf className="leaf" />
+              Home
+            </Link>
+            <Link to="./content">ContentList</Link>
+            <Link to="./">
+              <FaCloud />
+              Search
+            </Link>
           </li>
         </ul>
         <Outlet />
       </header>
-      <article className = "clearfix">
-          {children}
-      </article>
+      <article className="clearfix">{children}</article>
       <footer>
         <ul className="logo">
           <li>
