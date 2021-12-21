@@ -1,9 +1,17 @@
 .table-1column thead
 { 
-    text-align: center;
-    vertical-align: middle;
+    
     width : 400px;
     border-bottom: 1px solid black;
+}
+
+.table-1column td
+{
+    font-size: 30px;
+    font-weight: bolder;
+    height : 80px;
+    justify-content: center;
+    text-align: center;
 }
 
 .bigText
@@ -19,4 +27,9 @@ img
 .img
 {
     background-color: black;
+}
+
+.top-body
+{
+    line-height: 30px;
 }

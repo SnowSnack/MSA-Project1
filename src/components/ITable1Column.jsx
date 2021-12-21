@@ -9,10 +9,10 @@ const ITable1Column = () => {
         <div>
             <table className="table-1column">
                         <thead>
-                            <h1>아테네 올림픽</h1>
+                            <td>아테네 올림픽</td>
                         </thead>
                     
-                    <tbody>
+                    <tbody className="top-body">
                         <tr>Αγώνες της 28ης Ολυμπιάδας</tr>
                         <tr>제28회 올림픽 경기대회</tr>
                         <tr className='bigText'>Θερινοί Ολυμπιακοί Αγώνες 2004</tr>
