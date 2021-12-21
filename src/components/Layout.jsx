@@ -9,7 +9,7 @@ import {
 import "../css/Header.css";
 import "../css/Footer.css";
 import { Link, Outlet } from "react-router-dom";
-import "../css/Article.css";
+import "../css/Templates/Athene2004/A2004Article.css";
 const Layout = ({ children }) => {
   return (
     <div>
@@ -18,7 +18,6 @@ const Layout = ({ children }) => {
           <li className="menu">
               <Link to="/"><FaLeaf className="leaf"/>Home</Link>
               <Link to= "./content">ContentList</Link>
-              <Link to="./Search"><FaCloud/>Search</Link>
           </li>
         </ul>
         <Outlet />

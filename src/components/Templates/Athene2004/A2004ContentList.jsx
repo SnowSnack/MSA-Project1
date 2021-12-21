@@ -1,8 +1,8 @@
 
-import '../css/ContentList.css';
+import '../../../css/Templates/Athene2004/A2004ContentList.css';
 
 
-const ContentList = () =>
+const A2004ContentList = () =>
 {
     return (
         <>
@@ -38,4 +38,4 @@ const ContentList = () =>
     );
 };
 
-export default ContentList;
+export default A2004ContentList;

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import img1 from '../resources/imgs/Introduce1.jpg'
-import img2 from '../resources/imgs/Introduce2.jpg'
-import '../css/ITable1Column.css';
+import img1 from '../../../resources/imgs/A2004Introduce1.jpg'
+import img2 from '../../../resources/imgs/A2004Introduce2.jpg'
+import '../../../css/Templates/Athene2004/A2004ITable1Column.css';
 
-const ITable1Column = () => {
+const A2004ITable1Column = () => {
     return (
         <div>
             <table className="table-1column">
@@ -27,4 +27,4 @@ const ITable1Column = () => {
     );
 };
 
-export default ITable1Column;
+export default A2004ITable1Column;
