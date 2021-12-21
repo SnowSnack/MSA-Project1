@@ -15,9 +15,9 @@ const ITable1Column = () => {
                     <tbody>
                         <tr>Αγώνες της 28ης Ολυμπιάδας</tr>
                         <tr>제28회 올림픽 경기대회</tr>
-                        <tr>Θερινοί Ολυμπιακοί Αγώνες 2004</tr>
-                        <tr>2004 아테네 올림픽 경기대회</tr>
-                        <tr>Games of the XXIX Olympiad™ Athens 2004</tr>
+                        <tr className='bigText'>Θερινοί Ολυμπιακοί Αγώνες 2004</tr>
+                        <tr className='bigText'>2004 아테네 올림픽 경기대회</tr>
+                        <tr className='bigText'>Games of the XXIX Olympiad™ Athens 2004</tr>
                         <tr className = "img"><img src={img1} alt="" /></tr>
                         <tr className = "img"><img src={img2} alt="" /></tr>
                     </tbody>

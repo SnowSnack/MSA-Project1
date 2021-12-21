@@ -6,6 +6,11 @@
     border-bottom: 1px solid black;
 }
 
+.bigText
+{
+    font-size: 20px;
+}
+
 img
 {
     width : 400px;
